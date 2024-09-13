@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+
+    nav {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    nav div.left a,
+    nav div.right a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    nav div.left a {
+        margin-left: 10px;
+    }
+
+    nav div.right a {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    nav div a:hover {
+        color: #ccc;
+    }
+
+    .text {
+        /* background-color: #ccc; */
+        padding: 10px;
+        margin: 50px auto;
+        max-width: 800px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    img.profile{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .description{
+        font-size: 30px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="left">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="right">
+            <a href="project.html">Interest</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+
+    
+    <div class="text">
+        <img class="profile" src="images/1.jpg" alt="">
+        <p>Hi there! I'm Zirui, a CS major student at Hunter College with a passion in Cloud Engineering.</p>
+        <p>I have core cloud computing skills from completing various projects using AWS and Azure, including:</p>
+        <ul>
+            <li>Implementing Terraform and CI/CD pipelines for resources on both platforms.</li>
+            <li>Gaining experience with Kubernetes and Docker, as demonstrated in my projects.</li>
+            <li>Becoming certified as an AWS Solutions Architect Associate in July 2024.</li>
+        </ul>
+        <p>With my Computer Science background, I have a strong foundation in C++ and Python:</p>
+        <ul>
+            <li>I built a Key-Value NoSQL database from scratch using pure C++.</li>
+            <li>I have been teaching Python as a college CS tutor for one year.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2 class = "description">Feel free to explore other pages!</h2>
+        <img src="" alt="">
+    </div>
+</body>
+
+</html>
