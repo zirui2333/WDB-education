@@ -140,3 +140,95 @@ img.profile {
 .description{
     text-align: center;
 }
+
+
+
+
+
+
+
+.GPA_container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.GPA_table {
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+
+.GPA_table th, .GPA_table td {
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.error {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.button-container {
+    width: 100%;
+}
+
+.GPA_input.add_row {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.GPA_input.add_row:hover {
+    background-color: #0056b3;
+}
+
+.GPA_input.break{
+    background-color: lightcoral;
+    width: 95%;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.GPA_input.calculate, .GPA_input.reset{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.GPA_input.calculate:hover{
+    background-color: darkgreen;
+}
+
+.GPA_input.calculate{
+    background-color: green;
+}
+
+.GPA_input.reset:hover{
+    background-color: darkgray;
+}
+.GPA_input.reset {
+    background-color: gray;
+}
+
+.GPA_input.gpa_output{
+    padding: 40px;
+    background-color: white;
+    width: 95%;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: block;
+}
+
+.GPA_table td input{
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 15px;
+    border: none;
+}

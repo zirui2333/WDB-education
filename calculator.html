@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="styles.css">
+<body>
+    
+    <nav>
+        <div class="left">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="right">
+            <a href="calculator.html">GPA Calculator</a>
+            <a href="project.html">Interest</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+<div class="GPA_container">
+    <h1 class="GPA_input headline">GPA Calculator</h1>
+    <table id="course_table" class="GPA_table">
+        <thead>
+            <tr>
+                <th>Include</th>
+                <th>Course (optional)</th>
+                <th>Letter Grade</th>
+                <th>Credits</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><input type="checkbox" class="GPA_input check_mark" unchecked></td>
+                <td><input type="text" class="GPA_input" placeholder="Course #1"></td>
+                <td><input type="text" class="GPA_input grade_input" placeholder="--"></td>
+                <td><input type="number" class="GPA_input credit_input"></td>
+                <td><button class="GPA_input delete">&times;</button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="GPA_input check_mark" unchecked></td>
+                <td><input type="text" class="GPA_input" placeholder="Course #2"></td>
+                <td><input type="text" class="GPA_input grade_input" placeholder="--"></td>
+                <td><input type="number" class="GPA_input credit_input"></td>
+                <td><button class="GPA_input delete">&times;</button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" class="GPA_input check_mark" unchecked></td>
+                <td><input type="text" class="GPA_input" placeholder="Course #3"></td>
+                <td><input type="text" class="GPA_input grade_input" placeholder="--"></td>
+                <td><input type="number" class="GPA_input credit_input"></td>
+                <td><button class="GPA_input delete">&times;</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="button-container">
+        <button id= "add_row" class="GPA_input add_row">+ Add row</button>
+        <div class="GPA_input break"></div>
+    </div>
+
+    <div>
+        <button id="calculate" class="GPA_input calculate">= Calculate</button>
+        <button id="reset" class="GPA_input reset">X Reset</button>
+    </div>
+
+    <div>
+        <h3 class="GPA_input">GPA: </h3>
+        <span id = "gpa_output" class="GPA_input gpa_output"> * Please click "Calculate" to see result</span>
+    </div>
+
+</div>
+
+<script src="calculator_js.js"></script>
+
+</body>
+</html>
