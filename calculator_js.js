@@ -72,3 +72,5 @@ document.getElementById('calculate').addEventListener('click', function(){
 document.getElementById('reset').addEventListener('click', function(){
     location.reload();
 });
+
+

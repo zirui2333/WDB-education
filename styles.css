@@ -61,7 +61,6 @@ nav div a:hover {
     .contact a img{
         background-color: lightgray;
     }
-
 }
 
 .contact {
@@ -232,3 +231,82 @@ img.profile {
     padding: 15px;
     border: none;
 }
+
+@media screen and (max-width: 1000px){
+    .GPA_table td input{
+        background-color: #333;
+    }
+    .GPA_input.add_row{
+        background-color: goldenrod;
+    }
+    .GPA_input.add_row:hover{
+        background-color: darkgoldenrod;
+    }
+    .GPA_input.break{
+        background-color: Teal
+    }
+    .GPA_input.gpa_output{
+        background-color: #333;
+    }
+    .GPA_table th, .GPA_table td {
+        border: 2px solid gray;
+    }
+    .GPA_input.check_mark{
+        background-color: gray;
+        color: gray;
+    }
+}
+
+
+
+
+.nav-links {
+    display: flex;
+}
+
+.hamburger {
+    margin-right: 20px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* Responsive styling: Hide nav links on small screens */
+@media (min-width: 1001px) {
+    .nav-links{
+        display: flex;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    .nav-links a {
+        padding: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
