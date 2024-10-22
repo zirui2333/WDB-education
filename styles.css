@@ -232,6 +232,19 @@ img.profile {
     border: none;
 }
 
+.grade_input{
+    padding : 12px;
+    width: 95%;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.credit_input{
+    padding: 12px;
+    width: 80%;
+}
+
 @media screen and (max-width: 1000px){
     .GPA_table td input{
         background-color: #333;
@@ -255,7 +268,18 @@ img.profile {
         background-color: gray;
         color: gray;
     }
+
+    .grade_input{
+        background-color: #333;
+        color : gold;
+    }
+
+    .credit_input{
+        color: gold;
+    }
 }
+
+
 
 
 
